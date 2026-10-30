@@ -1,2 +1,0 @@
-import type {Question} from '@/types/question';
-export function Diagram({diagram}:{diagram:NonNullable<Question['diagram']>}){const detail=diagram.src.replace('/diagrams/','/diagrams/detail/');return <figure className="math-diagram"><a href={diagram.src} target="_blank" rel="noreferrer" aria-label="Buka ilustrasi sumber ukuran penuh"><img src={detail} alt={diagram.alt} loading="eager"/></a><figcaption>{diagram.caption}</figcaption><a className="diagram-source" href={diagram.src} target="_blank" rel="noreferrer">Perbesar ilustrasi sumber ↗</a></figure>}
