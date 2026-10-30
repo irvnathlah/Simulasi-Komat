@@ -1,0 +1,416 @@
+[
+  {
+    "questionId": "q01",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "4 soal",
+    "steps": [
+      "Misalkan s soal salah dan u soal kosong. Karena 38 dari 50 soal benar, s + u = 12.",
+      "Skor: 4 × 38 − 2s − u = 132, sehingga 2s + u = 20.",
+      "Kurangi kedua persamaan: s = 8. Jadi u = 12 − 8 = 4 soal. Aturan −2 dan −1 ini hanya milik cerita soal 1."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q02",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "12 kali",
+    "steps": [
+      "Misalkan tombol A ditekan a kali, maka B ditekan 20 − a kali.",
+      "100 + 15a − 8(20 − a) = 216, sehingga 23a = 276.",
+      "Diperoleh a = 12; tombol B ditekan 8 kali. Pemeriksaan: 100 + 180 − 64 = 216 °C."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q03",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "10",
+    "steps": [
+      "AB berarti 10A + B dan BCC berarti 100B + 11C.",
+      "11A + B = 100B + 11C, sehingga A − C = 9B.",
+      "Karena selisih dua digit paling besar 9 dan B bukan nol, B = 1. Maka A = 9 dan C = 0. Pemeriksaan: 91 + 9 = 100.",
+      "A + B + C = 9 + 1 + 0 = 10."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q04",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "11",
+    "steps": [
+      "Dengan konvensi standar kriptaritma, huruf berbeda harus memakai digit berbeda; M = 1 dan S = 9.",
+      "Tulis simpanan dari kolom satuan, puluhan, ratusan sebagai c₁, c₂, c₃. Kolom ribuan memberi 9 + 1 + c₃ = 10 + O, sehingga O = c₃. Karena O ≠ M, O = 0 dan c₃ = 0.",
+      "Kolom ratusan memberi E + c₂ = N. Karena E ≠ N, c₂ = 1 dan N = E + 1.",
+      "Kolom puluhan memberi N + R + c₁ = E + 10. Jadi R + c₁ = 9. Karena R ≠ S, R = 8 dan c₁ = 1.",
+      "Kolom satuan: D + E = 10 + Y. Digit 0, 1, 8, 9 sudah dipakai. Dari digit tersisa 2–7 dan N = E + 1, E = 2 atau 3 tidak dapat menghasilkan simpanan; E = 4 hanya bisa dengan D = 6 atau 7 tetapi Y menjadi 0 atau 1; E = 6 atau 7 membuat Y sama dengan digit terpakai atau D tidak cukup besar. Tersisa E = 5, N = 6, D = 7, Y = 2.",
+      "Pemeriksaan: 9567 + 1085 = 10652. E + O + N = 5 + 0 + 6 = 11.",
+      "Aturan digit berbeda kini dinyatakan eksplisit; kunci tunggal adalah B."
+    ],
+    "assumptions": [
+      "Aturan digit berbeda diperjelas berdasarkan penerimaan audit oleh pengguna pada 30 Oktober 2026."
+    ],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q05",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "11 unit",
+    "steps": [
+      "A paling sedikit 6 unit. Untuk memaksimalkan B, ambil A tepat 6 unit.",
+      "Sisa anggaran = 500.000 − 6 × 35.000 = Rp290.000,00.",
+      "290.000 / 25.000 = 11,6. Barang dibeli utuh, jadi maksimum 11 unit B. Biaya 12 unit B melebihi anggaran."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q06",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "50 liter",
+    "steps": [
+      "Misalkan kapasitas tangki V liter. Diketahui V/4 + 21 > 2V/3.",
+      "21 > (2/3 − 1/4)V = 5V/12, sehingga V < 252/5 = 50,4.",
+      "Bilangan bulat terbesar di bawah 50,4 adalah 50. Pemeriksaan: 12,5 + 21 = 33,5 > 100/3 liter dan tidak melebihi kapasitas."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q07",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "9 pasangan",
+    "steps": [
+      "Kalikan persamaan dengan 6xy: 6x + 6y = xy.",
+      "Pindahkan ruas dan tambahkan 36: (x − 6)(y − 6) = 36. Persamaan awal mengharuskan x > 6 dan y > 6.",
+      "Pembagi positif 36 adalah 1, 2, 3, 4, 6, 9, 12, 18, 36. Setiap pilihan x − 6 menentukan tepat satu y − 6.",
+      "Karena pasangan terurut, pasangan terbalik tetap dihitung. Ada 9 pasangan, termasuk (12, 12)."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q08",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "3 pasangan",
+    "steps": [
+      "Faktorkan a² − b² = (a − b)(a + b) = 45.",
+      "Pasangan faktor positif dengan faktor kecil lebih dulu adalah (1, 45), (3, 15), dan (5, 9). Keduanya ganjil agar a dan b bulat.",
+      "Dengan a = (v + u)/2 dan b = (v − u)/2, diperoleh (23,22), (9,6), (7,2). Jadi ada 3 pasangan."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q09",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "30 kali",
+    "steps": [
+      "Ketiga lampu menyala bersama setiap KPK(12,15,20) = 60 detik.",
+      "Dari 19.01 sampai 19.30 terdapat kejadian setiap menit.",
+      "Kedua batas dihitung, sehingga banyaknya 30 − 1 + 1 = 30 kali. Kejadian 19.00 tidak termasuk."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q10",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "5 jam 20 menit",
+    "steps": [
+      "Misalkan laju pengisian ketiga pipa a, b, c tangki per jam.",
+      "a + b = 1/6, b + c = 1/8, dan a + c = 1/12.",
+      "Jumlahkan: 2(a + b + c) = (4 + 3 + 2)/24 = 3/8. Jadi a + b + c = 3/16.",
+      "Waktu pengisian = 16/3 jam = 5 jam 20 menit. Semua laju individual positif."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q11",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "108 orang",
+    "steps": [
+      "Misalkan ada r baris. Jika tiap baris memuat 8 orang, jumlah orang P = 8r + 4.",
+      "Dengan 9 orang pada setiap baris terisi dan tepat satu baris kosong, P = 9(r − 1).",
+      "8r + 4 = 9r − 9 menghasilkan r = 13, sehingga P = 108 orang.",
+      "Ini menggunakan makna lazim bahwa semua baris yang dipakai pada skenario kedua terisi penuh."
+    ],
+    "assumptions": [
+      "Semua baris yang dipakai terisi penuh pada skenario kedua."
+    ],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q12",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "Rp91.200,00",
+    "steps": [
+      "Harga pokok tiap kilogram = 600.000 / 50 = Rp12.000,00.",
+      "Harga jual bagian pertama = 120% × 12.000 = Rp14.400,00/kg. Pendapatan 30 kg = Rp432.000,00.",
+      "Harga jual sisa = 90% × 14.400 = Rp12.960,00/kg. Pendapatan 20 kg = Rp259.200,00.",
+      "Keuntungan = 432.000 + 259.200 − 600.000 = Rp91.200,00. Tidak ada biaya tambahan yang dinyatakan dalam soal."
+    ],
+    "assumptions": [
+      "Biaya tambahan, pajak, dan susut beras tidak dinyatakan."
+    ],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q13",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "6 bulan",
+    "steps": [
+      "Bunga yang diperoleh = 6.240.000 − 6.000.000 = Rp240.000,00.",
+      "Bunga setahun = 8% × 6.000.000 = Rp480.000,00.",
+      "Waktu = 240.000 / 480.000 = 1/2 tahun = 6 bulan."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q14",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "Rp300.000,00",
+    "steps": [
+      "Dua diskon diterapkan berurutan, bukan dijumlah menjadi 30%.",
+      "Harga akhir = 80% × 90% × harga awal = 72% × harga awal.",
+      "Harga awal = 216.000 / 0,72 = Rp300.000,00."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q15",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "59",
+    "steps": [
+      "N bersisa satu kurang dari pembaginya pada pembagian oleh 3, 4, dan 5.",
+      "Artinya N + 1 habis dibagi 3, 4, dan 5; KPK ketiganya 60.",
+      "N positif terkecil adalah 60 − 1 = 59. Sisanya berturut-turut 2, 3, dan 4."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q16",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "11",
+    "steps": [
+      "Habis dibagi 36 berarti habis dibagi 4 dan 9 karena keduanya relatif prima.",
+      "Dua digit terakhir 3b habis dibagi 4 hanya jika b = 2 atau b = 6.",
+      "Jumlah digit 4 + a + 3 + b = 7 + a + b harus kelipatan 9. Karena 0 ≤ a + b ≤ 18, kemungkinan a + b = 2 atau 11.",
+      "PIN yang memenuhi adalah 4032, 4536, dan 4932. Nilai maksimum a + b = 11. Dua PIN mencapai maksimum yang sama; jawaban yang ditanyakan tetap tunggal."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q17",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "2",
+    "steps": [
+      "Sisa 2¹, 2², 2³ pada pembagian oleh 7 berturut-turut 2, 4, 1.",
+      "Pola berulang setiap 3 pangkat. Karena 2026 = 3 × 675 + 1, pangkatnya berada pada posisi pertama pola.",
+      "Jadi 2²⁰²⁶ bersisa 2 ketika dibagi 7. Periksa: 2026 = 3 × 675 + 1."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q18",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "80 butir",
+    "steps": [
+      "Selisih perbandingan Candra dan Anton = 5 − 2 = 3 bagian.",
+      "3 bagian = 24 butir, sehingga 1 bagian = 8 butir.",
+      "Total = (2 + 3 + 5) × 8 = 80 butir."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q19",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "5 orang",
+    "steps": [
+      "Total pekerjaan = 60 × 20 = 1.200 hari-orang.",
+      "Yang sudah dikerjakan = 15 × 20 = 300 hari-orang; sisa 900 hari-orang.",
+      "Sisa waktu kalender = 60 − 15 − 9 = 36 hari.",
+      "Pekerja yang dibutuhkan = 900 / 36 = 25 orang. Tambahan = 25 − 20 = 5 orang, dengan produktivitas tetap."
+    ],
+    "assumptions": [
+      "Produktivitas setiap pekerja sama dan tetap."
+    ],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q20",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "48 m²",
+    "steps": [
+      "Skala panjang 1 : 200 membuat perbandingan luas 1 : 200².",
+      "Luas sebenarnya = 12 × 40.000 = 480.000 cm².",
+      "Karena 1 m² = 10.000 cm², luas sebenarnya 48 m²."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q21",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "20 cm²",
+    "steps": [
+      "Luas persegi panjang pertama = 8 × 6 = 48 cm²; kedua = 10 × 5 = 50 cm².",
+      "Luas gabungan = luas pertama + luas kedua − luas irisan.",
+      "Luas irisan = 48 + 50 − 78 = 20 cm². Ukuran piksel gambar tidak dipakai."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q22",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "35 cm²",
+    "steps": [
+      "Jumlah luas kedua segitiga adalah 60 + 90 = 150 cm².",
+      "Dalam penjumlahan itu daerah irisan dihitung dua kali, sedangkan gabungan hanya sekali.",
+      "Luas irisan = 150 − 115 = 35 cm². Gambar skematis bukan sumber pengukuran luas."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q23",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "75 cm²",
+    "steps": [
+      "Keterangan gambar menyatakan sisi persegi 12 cm. Maka luas persegi = 12² = 144 cm².",
+      "Luas irisan = 144 − 114 = 30 cm².",
+      "Irisan ini 40% dari luas segitiga, sehingga luas segitiga = 30 / 0,4 = 75 cm².",
+      "Tanpa keterangan sisi 12 cm, data tidak cukup. Karena itu caption wajib ikut disajikan."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q24",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "09.30 WIB",
+    "steps": [
+      "Kedua mobil mendekat dengan laju gabungan 60 + 80 = 140 km/jam.",
+      "Waktu bertemu = 210 / 140 = 1,5 jam = 1 jam 30 menit.",
+      "08.00 + 1 jam 30 menit = 09.30 WIB."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q25",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "50 km",
+    "steps": [
+      "Dengan waktu berangkat dan target kedatangan yang sama, selisih lama perjalanan adalah 15 + 10 = 25 menit = 5/12 jam.",
+      "Misalkan jarak d km. Maka d/40 − d/60 = 5/12.",
+      "d/120 = 5/12, sehingga d = 50 km. Pemeriksaan: 75 menit dan 50 menit, selisih 25 menit."
+    ],
+    "assumptions": [
+      "Waktu berangkat dan target tiba sama pada kedua skenario."
+    ],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q26",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "300 cm",
+    "steps": [
+      "Bayangkan persegi panjang pembungkus 40 cm × 60 cm, kelilingnya 2(40 + 60) = 200 cm.",
+      "Huruf H memiliki dua takikan, atas dan bawah. Tinggi tiap takikan = (60 − 10)/2 = 25 cm.",
+      "Mengganti ruas horizontal dengan lintasan takikan tidak mengubah total sisi horizontal, tetapi menambah dua sisi vertikal 25 cm untuk setiap takikan.",
+      "Keliling = 200 + 2 × 2 × 25 = 300 cm. Tepi pada kedua cekungan tetap bagian batas papan, bukan lubang tertutup."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q27",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "50 cm²",
+    "steps": [
+      "Luas persegi luar = 10 × 10 = 100 cm².",
+      "Empat segitiga sudut masing-masing memiliki kaki 5 cm dan 5 cm. Total luasnya = 4 × (1/2 × 5 × 5) = 50 cm².",
+      "Luas PQRS = 100 − 50 = 50 cm². Cara cepat: kedua diagonal PQRS panjangnya 10 cm, sehingga luasnya 1/2 × 10 × 10."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q28",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "48 cm²",
+    "steps": [
+      "Gunakan AB dan CD sebagai alas dua segitiga; keduanya sama panjang 12 cm.",
+      "Jika jarak E ke AB adalah h, jarak E ke CD adalah 8 − h.",
+      "Jumlah luas = 1/2 × 12 × h + 1/2 × 12 × (8 − h) = 48 cm².",
+      "Hasil berlaku untuk setiap titik E di dalam persegi panjang; E tidak perlu menjadi titik potong diagonal."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q29",
+    "status": "validated",
+    "correctOption": "B",
+    "correctValue": "23",
+    "steps": [
+      "Kuadratkan persamaan x + 1/x = 5, dengan x ≠ 0.",
+      "x² + 2 + 1/x² = 25.",
+      "Jadi x² + 1/x² = 25 − 2 = 23."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  },
+  {
+    "questionId": "q30",
+    "status": "validated",
+    "correctOption": "C",
+    "correctValue": "98 cm²",
+    "steps": [
+      "Sisi harus positif: x > 1/2. Keliling = 2[(3x + 2) + (2x − 1)] = 10x + 2 ≤ 42, sehingga x ≤ 4.",
+      "Luas = (3x + 2)(2x − 1) = 6x² + x − 2. Pada 1/2 < x ≤ 4, kedua faktor positif dan bertambah ketika x bertambah, sehingga luas maksimum terjadi saat x = 4.",
+      "Panjang = 14 cm dan lebar = 7 cm. Luas maksimum = 98 cm²; kelilingnya tepat 42 cm."
+    ],
+    "assumptions": [],
+    "releaseGate": "passed"
+  }
+]
