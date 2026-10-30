@@ -1,0 +1,1254 @@
+[
+  {
+    "id": "q01",
+    "originalNumber": 1,
+    "topic": "Operasi hitung bilangan",
+    "originalTopic": "OPERASI HITUNG BILANGAN",
+    "statement": "Dalam sebuah tes Olimpiade Matematika bertotal 50 soal, aturan skoring menentukan bahwa jawaban benar mendapat nilai +4, jawaban salah −2, dan soal tidak dijawab −1. Jika Andi menjawab 38 soal dengan benar dan memperoleh skor total 132, berapakah banyaknya soal yang tidak dijawab oleh Andi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 soal"
+      },
+      {
+        "id": "B",
+        "text": "4 soal"
+      },
+      {
+        "id": "C",
+        "text": "5 soal"
+      },
+      {
+        "id": "D",
+        "text": "6 soal"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 1,
+      "printedPage": 1,
+      "originalText": "1. OPERASI HITUNG BILANGAN Dalam sebuah tes Olimpiade Matematika bertotal 50 soal, aturan skoring\nmenentukan bahwa jawaban benar mendapat nilai +4, jawaban salah -2, dan soal tidak dijawab -1. Jika\nAndi menjawab 38 soal dengan benar dan memperoleh skor total 132, berapakah banyaknya soal yang\ntidak dijawab oleh Andi?\nA. 3 soal B. 4 soal C. 5 soal D. 6 soal"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q02",
+    "originalNumber": 2,
+    "topic": "Operasi hitung bilangan",
+    "originalTopic": "OPERASI HITUNG BILANGAN",
+    "statement": "Sebuah alat pengatur suhu air memiliki indikator suhu awal 100 °C. Setiap kali tombol A ditekan, suhu air naik 15 °C, dan setiap kali tombol B ditekan, suhu air turun 8 °C. Jika tombol A dan B ditekan total sebanyak 20 kali dan suhu akhir air menunjukkan 216 °C, berapa kali tombol A ditekan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 kali"
+      },
+      {
+        "id": "B",
+        "text": "12 kali"
+      },
+      {
+        "id": "C",
+        "text": "14 kali"
+      },
+      {
+        "id": "D",
+        "text": "15 kali"
+      }
+    ],
+    "mathExpressions": [
+      "100^\\circ\\mathrm{C}",
+      "15^\\circ\\mathrm{C}",
+      "8^\\circ\\mathrm{C}",
+      "216^\\circ\\mathrm{C}"
+    ],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 1,
+      "printedPage": 1,
+      "originalText": "2. OPERASI HITUNG BILANGAN Sebuah alat pengatur suhu air memiliki indikator suhu awal\n$100^\\circ\\text{C}$. Setiap kali tombol A ditekan, suhu air naik $15^\\circ\\text{C}$, dan setiap kali\ntombol B ditekan, suhu air turun $8^\\circ\\text{C}$. Jika tombol A dan B ditekan total sebanyak 20 kali\ndan suhu akhir air menunjukkan $216^\\circ\\text{C}$, berapa kali tombol A ditekan?\nA. 10 kali B. 12 kali C. 14 kali D. 15 kali"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q03",
+    "originalNumber": 3,
+    "topic": "Alphametics / cryptarithm",
+    "originalTopic": "ALPHAMETICS / CRYPTARITHM",
+    "statement": "Pada sebuah teka-teki kriptosandi bilangan, huruf-huruf berbeda mewakili digit angka berbeda (0–9). Diketahui penjumlahan berikut: AB + A = BCC. Jika A, B, dan C adalah digit dengan A ≠ 0 dan B ≠ 0, tentukan nilai dari A + B + C.",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "11"
+      }
+    ],
+    "mathExpressions": [
+      "\\begin{array}{rrr}&A&B\\\\+&&A\\\\\\hline B&C&C\\end{array}",
+      "A+B+C"
+    ],
+    "cryptarithm": {
+      "addends": [
+        "AB",
+        "A"
+      ],
+      "sum": "BCC"
+    },
+    "diagram": null,
+    "source": {
+      "physicalPage": 1,
+      "printedPage": 1,
+      "originalText": "3. ALPHAMETICS / CRYPTARITHM Pada sebuah teka-teki kriptosandi bilangan, huruf-huruf berbeda\nmewakili digit angka berbeda ($0-9$). Diketahui penjumlahan berikut: AB + A = BCC. Jika A, B, dan C\nadalah digit dengan A ≠ 0 dan B ≠ 0, tentukan nilai dari A + B + C.\nA. 8 B. 9 C. 10 D. 11"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q04",
+    "originalNumber": 4,
+    "topic": "Alphametics / cryptarithm",
+    "originalTopic": "ALPHAMETICS / CRYPTARITHM",
+    "statement": "Diberikan persamaan sandi penjumlahan aritmatika klasik: SEND + MORE = MONEY. Jika diketahui nilai digit M = 1 dan S = 9, berapakah hasil penjumlahan dari nilai digit E + O + N? Huruf yang sama mewakili digit yang sama dan huruf berbeda mewakili digit berbeda (0–9).",
+    "options": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "11"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "13"
+      }
+    ],
+    "mathExpressions": [
+      "\\begin{array}{rrrrr}&S&E&N&D\\\\+&M&O&R&E\\\\\\hline M&O&N&E&Y\\end{array}",
+      "E+O+N"
+    ],
+    "cryptarithm": {
+      "addends": [
+        "SEND",
+        "MORE"
+      ],
+      "sum": "MONEY"
+    },
+    "diagram": null,
+    "source": {
+      "physicalPage": 1,
+      "printedPage": 1,
+      "originalText": "4. ALPHAMETICS / CRYPTARITHM Diberikan persamaan sandi penjumlahan aritmatika klasik: SEND +\nMORE = MONEY. Jika diketahui nilai digit M = 1 dan S = 9, berapakah hasil penjumlahan dari nilai\ndigit E + O + N?\nA. 10 B. 11 C. 12 D. 13"
+    },
+    "auditFlags": [
+      "Q04-CONVENTION-ACCEPTED-2026-10-30"
+    ]
+  },
+  {
+    "id": "q05",
+    "originalNumber": 5,
+    "topic": "Pertidaksamaan rasional",
+    "originalTopic": "PERTIDAKSAMAAN RASIONAL",
+    "statement": "Pak Budi memiliki anggaran belanja maksimal Rp500.000,00 untuk membeli dua jenis barang. Harga barang A adalah Rp35.000,00/unit dan barang B adalah Rp25.000,00/unit. Jika Pak Budi wajib membeli sekurang-kurangnya 6 unit barang A, berapakah jumlah unit barang B terbanyak yang dapat ia beli?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 unit"
+      },
+      {
+        "id": "B",
+        "text": "11 unit"
+      },
+      {
+        "id": "C",
+        "text": "12 unit"
+      },
+      {
+        "id": "D",
+        "text": "13 unit"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 1,
+      "printedPage": 1,
+      "originalText": "5. PERTIDAKSAMAAN RASIONAL Pak Budi memiliki anggaran belanja maksimal Rp500.000,00 untuk\nmembeli dua jenis barang. Harga barang A adalah Rp35.000,00/unit dan barang B adalah\nRp25.000,00/unit. Jika Pak Budi wajib membeli sekurang-kurangnya 6 unit barang A, berapakah jumlah\nunit barang B terbanyak yang dapat ia beli?\nA. 10 unit B. 11 unit C. 12 unit D. 13 unit"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q06",
+    "originalNumber": 6,
+    "topic": "Pertidaksamaan rasional",
+    "originalTopic": "PERTIDAKSAMAAN RASIONAL",
+    "statement": "Sebuah tangki air berbentuk tabung tegak awal mulanya berisi 1/4 dari kapasitas totalnya. Setelah ditambahkan 21 liter air, volume air menjadi lebih dari 2/3 kapasitas total tangki. Kapasitas maksimum tangki tersebut dalam bilangan bulat liter adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "48 liter"
+      },
+      {
+        "id": "B",
+        "text": "50 liter"
+      },
+      {
+        "id": "C",
+        "text": "52 liter"
+      },
+      {
+        "id": "D",
+        "text": "54 liter"
+      }
+    ],
+    "mathExpressions": [
+      "\\frac14",
+      "\\frac23"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q06.png",
+      "caption": "Ilustrasi Tangki Air (Soal 6): Penambahan 21 liter air membuat volume akhir melebihi 2/3 kapasitas total.",
+      "alt": "Tangki dengan tambahan 21 L. Keterangan menyatakan volume akhir lebih dari 2/3 kapasitas.",
+      "sourcePhysicalPage": 1,
+      "cropPixels": [
+        120,
+        1432,
+        1120,
+        1580
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 1,
+      "printedPage": 1,
+      "originalText": "6. PERTIDAKSAMAAN RASIONAL Sebuah tangki air berbentuk tabung tegak awal mulanya berisi 1/4 dari\nkapasitas totalnya. Setelah ditambahkan 21 liter air, volume air menjadi lebih dari 2/3 kapasitas total\ntangki. Kapasitas maksimum tangki tersebut dalam bilangan bulat liter adalah...\n+21 L Ilustrasi Tangki Air (Soal 6):\nPenambahan 21 liter air membuat volume akhir melebihi 2/3 kapasitas\ntotal.\nA. 48 liter B. 50 liter C. 52 liter D. 54 liter"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q07",
+    "originalNumber": 7,
+    "topic": "Pasangan bilangan bulat",
+    "originalTopic": "PASANGAN BILANGAN BULAT",
+    "statement": "Tentukan banyaknya pasangan bilangan bulat positif terurut (x, y) yang memenuhi persamaan pecahan berikut: 1/x + 1/y = 1/6.",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 pasangan"
+      },
+      {
+        "id": "B",
+        "text": "8 pasangan"
+      },
+      {
+        "id": "C",
+        "text": "9 pasangan"
+      },
+      {
+        "id": "D",
+        "text": "10 pasangan"
+      }
+    ],
+    "mathExpressions": [
+      "\\frac1x+\\frac1y=\\frac16"
+    ],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 2,
+      "printedPage": 2,
+      "originalText": "7. PASANGAN BILANGAN BULAT Tentukan banyaknya pasangan bilangan bulat positif terurut (x, y) yang\nmemenuhi persamaan pecahan berikut: 1/x + 1/y = 1/6.\nA. 7 pasangan B. 8 pasangan C. 9 pasangan D. 10 pasangan"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q08",
+    "originalNumber": 8,
+    "topic": "Pasangan bilangan bulat",
+    "originalTopic": "PASANGAN BILANGAN BULAT",
+    "statement": "Tentukan banyaknya pasangan bilangan bulat positif (a, b) yang memenuhi persamaan selisih kuadrat berikut: a² − b² = 45.",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 pasangan"
+      },
+      {
+        "id": "B",
+        "text": "3 pasangan"
+      },
+      {
+        "id": "C",
+        "text": "4 pasangan"
+      },
+      {
+        "id": "D",
+        "text": "5 pasangan"
+      }
+    ],
+    "mathExpressions": [
+      "a^2-b^2=45"
+    ],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 2,
+      "printedPage": 2,
+      "originalText": "8. PASANGAN BILANGAN BULAT Tentukan banyaknya pasangan bilangan bulat positif (a, b) yang\nmemenuhi persamaan selisih kuadrat berikut: a2 − b2 = 45.\nA. 2 pasangan B. 3 pasangan C. 4 pasangan D. 5 pasangan"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q09",
+    "originalNumber": 9,
+    "topic": "Pemecahan masalah (aplikasi)",
+    "originalTopic": "PEMECAHAN MASALAH (APLIKASI)",
+    "statement": "Tiga buah lampu hias taman menyala secara periodik. Lampu A menyala setiap 12 detik, lampu B setiap 15 detik, dan lampu C setiap 20 detik. Jika ketiga lampu menyala bersamaan pada pukul 19.00, berapa kalikah ketiga lampu menyala bersamaan antara pukul 19.01 dan 19.30 (inklusif)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28 kali"
+      },
+      {
+        "id": "B",
+        "text": "29 kali"
+      },
+      {
+        "id": "C",
+        "text": "30 kali"
+      },
+      {
+        "id": "D",
+        "text": "31 kali"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 2,
+      "printedPage": 2,
+      "originalText": "9. PEMECAHAN MASALAH (APLIKASI) Tiga buah lampu hias taman menyala secara periodik. Lampu A\nmenyala setiap 12 detik, lampu B setiap 15 detik, dan lampu C setiap 20 detik. Jika ketiga lampu menyala\nbersamaan pada pukul 19.00, berapa kalikah ketiga lampu menyala bersamaan antara pukul 19.01 dan\n19.30 (inklusif)?\nA. 28 kali B. 29 kali C. 30 kali D. 31 kali"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q10",
+    "originalNumber": 10,
+    "topic": "Pemecahan masalah (aplikasi)",
+    "originalTopic": "PEMECAHAN MASALAH (APLIKASI)",
+    "statement": "Tiga buah pipa air (A, B, dan C) digunakan untuk mengisi tangki penampungan. Pipa A dan B jika dibuka bersama mengisinya dalam 6 jam. Pipa B dan C dalam 8 jam, sedangkan pipa A dan C dalam 12 jam. Berapa lama waktu yang dibutuhkan jika ketiga pipa dibuka bersama-sama?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 jam 30 menit"
+      },
+      {
+        "id": "B",
+        "text": "5 jam 20 menit"
+      },
+      {
+        "id": "C",
+        "text": "5 jam 40 menit"
+      },
+      {
+        "id": "D",
+        "text": "6 jam"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 2,
+      "printedPage": 2,
+      "originalText": "10. PEMECAHAN MASALAH (APLIKASI) Tiga buah pipa air (A, B, dan C) digunakan untuk mengisi tangki\npenampungan. Pipa A dan B jika dibuka bersama mengisinya dalam 6 jam. Pipa B dan C dalam 8 jam,\nsedangkan pipa A dan C dalam 12 jam. Berapa lama waktu yang dibutuhkan jika ketiga pipa dibuka\nbersama-sama?\nA. 4 jam 30 menit B. 5 jam 20 menit C. 5 jam 40 menit D. 6 jam"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q11",
+    "originalNumber": 11,
+    "topic": "Pemecahan masalah (aplikasi)",
+    "originalTopic": "PEMECAHAN MASALAH (APLIKASI)",
+    "statement": "Dalam sebuah aula pertemuan, jika setiap baris kursi diisi oleh 8 orang, maka ada 4 orang yang tidak mendapat kursi. Jika setiap baris diisi 9 orang, maka ada tepat 1 baris kursi yang kosong. Berapakah jumlah total orang yang hadir di aula tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "96 orang"
+      },
+      {
+        "id": "B",
+        "text": "100 orang"
+      },
+      {
+        "id": "C",
+        "text": "108 orang"
+      },
+      {
+        "id": "D",
+        "text": "112 orang"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 2,
+      "printedPage": 2,
+      "originalText": "11. PEMECAHAN MASALAH (APLIKASI) Dalam sebuah aula pertemuan, jika setiap baris kursi diisi oleh 8\norang, maka ada 4 orang yang tidak mendapat kursi. Jika setiap baris diisi 9 orang, maka ada tepat 1 baris\nkursi yang kosong. Berapakah jumlah total orang yang hadir di aula tersebut?\nA. 96 orang B. 100 orang C. 108 orang D. 112 orang"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q12",
+    "originalNumber": 12,
+    "topic": "Aritmatika sosial",
+    "originalTopic": "ARITMATIKA SOSIAL",
+    "statement": "Pedagang membeli 50 kg beras seharga Rp600.000,00. Sebanyak 30 kg beras dijual dengan mengambil keuntungan 20%, sedangkan sisanya dijual dengan diskon 10% dari harga jual bagian pertama. Total keuntungan bersih pedagang tersebut adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rp84.000,00"
+      },
+      {
+        "id": "B",
+        "text": "Rp91.200,00"
+      },
+      {
+        "id": "C",
+        "text": "Rp96.000,00"
+      },
+      {
+        "id": "D",
+        "text": "Rp102.000,00"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 2,
+      "printedPage": 2,
+      "originalText": "12. ARITMATIKA SOSIAL Pedagang membeli 50 kg beras seharga Rp600.000,00. Sebanyak 30 kg beras\ndijual dengan mengambil keuntungan 20%, sedangkan sisanya dijual dengan diskon 10% dari harga jual\nbagian pertama. Total keuntungan bersih pedagang tersebut adalah...\nA. Rp84.000,00 B. Rp91.200,00 C. Rp96.000,00 D. Rp102.000,00"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q13",
+    "originalNumber": 13,
+    "topic": "Aritmatika sosial",
+    "originalTopic": "ARITMATIKA SOSIAL",
+    "statement": "Seseorang menabung uang di bank sebesar Rp6.000.000,00 dengan sistem bunga tunggal 8% per tahun. Setelah berapa bulan jumlah tabungannya di bank tersebut berkembang menjadi Rp6.240.000,00?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 bulan"
+      },
+      {
+        "id": "B",
+        "text": "5 bulan"
+      },
+      {
+        "id": "C",
+        "text": "6 bulan"
+      },
+      {
+        "id": "D",
+        "text": "8 bulan"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 2,
+      "printedPage": 2,
+      "originalText": "13. ARITMATIKA SOSIAL Seseorang menabung uang di bank sebesar Rp6.000.000,00 dengan sistem bunga\ntunggal 8% per tahun. Setelah berapa bulan jumlah tabungannya di bank tersebut berkembang menjadi\nRp6.240.000,00?\nA. 4 bulan B. 5 bulan C. 6 bulan D. 8 bulan"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q14",
+    "originalNumber": 14,
+    "topic": "Aritmatika sosial",
+    "originalTopic": "ARITMATIKA SOSIAL",
+    "statement": "Sebuah toko pakaian memberikan diskon ganda (bertingkat) sebesar 20% + 10%. Jika seorang pembeli membayar sebesar Rp216.000,00 setelah kedua diskon diterapkan, berapakah harga awal baju sebelum diskon?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rp270.000,00"
+      },
+      {
+        "id": "B",
+        "text": "Rp280.000,00"
+      },
+      {
+        "id": "C",
+        "text": "Rp300.000,00"
+      },
+      {
+        "id": "D",
+        "text": "Rp320.000,00"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 3,
+      "printedPage": 3,
+      "originalText": "14. ARITMATIKA SOSIAL Sebuah toko pakaian memberikan diskon ganda (bertingkat) sebesar 20% +\n10%. Jika seorang pembeli membayar sebesar Rp216.000,00 setelah kedua diskon diterapkan, berapakah\nharga awal baju sebelum diskon?\nA. Rp270.000,00 B. Rp280.000,00 C. Rp300.000,00 D. Rp320.000,00"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q15",
+    "originalNumber": 15,
+    "topic": "Keterbagian bilangan bulat",
+    "originalTopic": "KETERBAGIAN BILANGAN BULAT",
+    "statement": "Tentukan bilangan bulat positif terkecil N yang apabila dibagi oleh 3 bersisa 2, dibagi oleh 4 bersisa 3, dan apabila dibagi oleh 5 bersisa 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "53"
+      },
+      {
+        "id": "B",
+        "text": "57"
+      },
+      {
+        "id": "C",
+        "text": "59"
+      },
+      {
+        "id": "D",
+        "text": "61"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 3,
+      "printedPage": 3,
+      "originalText": "15. KETERBAGIAN BILANGAN BULAT Tentukan bilangan bulat positif terkecil N yang apabila dibagi oleh 3\nbersisa 2, dibagi oleh 4 bersisa 3, dan apabila dibagi oleh 5 bersisa 4.\nA. 53 B. 57 C. 59 D. 61"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q16",
+    "originalNumber": 16,
+    "topic": "Keterbagian bilangan bulat",
+    "originalTopic": "KETERBAGIAN BILANGAN BULAT",
+    "statement": "Sebuah kode PIN empat digit berbentuk 4a3b habis dibagi oleh 36. Tentukan nilai maksimum dari hasil penjumlahan digit a + b.",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "mathExpressions": [
+      "\\overline{4a3b}"
+    ],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 3,
+      "printedPage": 3,
+      "originalText": "16. KETERBAGIAN BILANGAN BULAT Sebuah kode PIN empat digit berbentuk 4a3b habis dibagi oleh 36.\nTentukan nilai maksimum dari hasil penjumlahan digit a + b.\nA. 9 B. 10 C. 11 D. 12"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q17",
+    "originalNumber": 17,
+    "topic": "Keterbagian bilangan bulat",
+    "originalTopic": "KETERBAGIAN BILANGAN BULAT",
+    "statement": "Tentukan sisa hasil pembagian dari bentuk perpangkatan besar 2²⁰²⁶ ketika dibagi oleh bilangan 7. (Petunjuk: Gunakan sifat pola siklus sisa pembagian berpangkat).",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "mathExpressions": [
+      "2^{2026}"
+    ],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 3,
+      "printedPage": 3,
+      "originalText": "17. KETERBAGIAN BILANGAN BULAT Tentukan sisa hasil pembagian dari bentuk perpangkatan besar 22026\nketika dibagi oleh bilangan 7. (Petunjuk: Gunakan sifat pola siklus sisa pembagian berpangkat).\nA. 1 B. 2 C. 4 D. 6"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q18",
+    "originalNumber": 18,
+    "topic": "Rasio dan perbandingan",
+    "originalTopic": "RASIO DAN PERBANDINGAN",
+    "statement": "Perbandingan jumlah kelereng Anton, Budi, dan Candra adalah 2 : 3 : 5. Jika selisih kelereng milik Candra dan Anton adalah 24 butir, berapakah jumlah seluruh kelereng ketiga anak tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "64 butir"
+      },
+      {
+        "id": "B",
+        "text": "72 butir"
+      },
+      {
+        "id": "C",
+        "text": "80 butir"
+      },
+      {
+        "id": "D",
+        "text": "96 butir"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 3,
+      "printedPage": 3,
+      "originalText": "18. RASIO DAN PERBANDINGAN Perbandingan jumlah kelereng Anton, Budi, dan Candra adalah 2 : 3 : 5.\nJika selisih kelereng milik Candra dan Anton adalah 24 butir, berapakah jumlah seluruh kelereng ketiga\nanak tersebut?\nA. 64 butir B. 72 butir C. 80 butir D. 96 butir"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q19",
+    "originalNumber": 19,
+    "topic": "Rasio dan perbandingan",
+    "originalTopic": "RASIO DAN PERBANDINGAN",
+    "statement": "Pembangunan jembatan ditargetkan selesai dalam 60 hari dengan 20 pekerja. Setelah bekerja 15 hari, pekerjaan terhenti selama 9 hari karena cuaca buruk. Agar proyek selesai tepat waktu, berapa tambahan pekerja yang harus ditambah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 orang"
+      },
+      {
+        "id": "B",
+        "text": "5 orang"
+      },
+      {
+        "id": "C",
+        "text": "6 orang"
+      },
+      {
+        "id": "D",
+        "text": "8 orang"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 3,
+      "printedPage": 3,
+      "originalText": "19. RASIO DAN PERBANDINGAN Pembangunan jembatan ditargetkan selesai dalam 60 hari dengan 20\npekerja. Setelah bekerja 15 hari, pekerjaan terhenti selama 9 hari karena cuaca buruk. Agar proyek selesai\ntepat waktu, berapa tambahan pekerja yang harus ditambah?\nA. 4 orang B. 5 orang C. 6 orang D. 8 orang"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q20",
+    "originalNumber": 20,
+    "topic": "Rasio dan perbandingan",
+    "originalTopic": "RASIO DAN PERBANDINGAN",
+    "statement": "Denah ruang tamu digambar dengan skala 1 : 200 berbentuk persegi panjang seperti pada denah di bawah ini. Jika luas denah pada peta adalah 12 cm², berapakah luas aktual ruang tamu sebenarnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 m²"
+      },
+      {
+        "id": "B",
+        "text": "36 m²"
+      },
+      {
+        "id": "C",
+        "text": "48 m²"
+      },
+      {
+        "id": "D",
+        "text": "60 m²"
+      }
+    ],
+    "mathExpressions": [
+      "12\\,\\mathrm{cm}^2"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q20.png",
+      "caption": "Gambar Denah 20: Perhitungan perbandingan luas aktual menggunakan kuadrat dari skala denah.",
+      "alt": "Denah persegi panjang, skala 1 : 200, luas denah 12 cm².",
+      "sourcePhysicalPage": 3,
+      "cropPixels": [
+        120,
+        1008,
+        1120,
+        1134
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 3,
+      "printedPage": 3,
+      "originalText": "20. RASIO DAN PERBANDINGAN Denah ruang tamu digambar dengan skala 1 : 200 berbentuk persegi\npanjang seperti pada denah di bawah ini. Jika luas denah pada peta adalah 12 cm2, berapakah luas aktual\nruang tamu sebenarnya?\nDenah (Skala 1 : 200)\nLuas Denah = 12 cm²\nGambar Denah 20:\nPerhitungan perbandingan luas aktual menggunakan kuadrat dari\nskala denah.\nA. 24 m2 B. 36 m2 C. 48 m2 D. 60 m2"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q21",
+    "originalNumber": 21,
+    "topic": "Bangun datar beririsan",
+    "originalTopic": "BANGUN DATAR BERIRISAN",
+    "statement": "Dua buah persegi panjang ABCD (ukuran 8 cm × 6 cm) dan EFGH (ukuran 10 cm × 5 cm) saling beririsan seperti gambar di bawah. Jika total luas gabungan kedua bangun tanpa menghitung daerah irisan dua kali adalah 78 cm², hitunglah luas daerah irisannya!",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 cm²"
+      },
+      {
+        "id": "B",
+        "text": "18 cm²"
+      },
+      {
+        "id": "C",
+        "text": "20 cm²"
+      },
+      {
+        "id": "D",
+        "text": "22 cm²"
+      }
+    ],
+    "mathExpressions": [
+      "8\\,\\mathrm{cm}\\times6\\,\\mathrm{cm}",
+      "10\\,\\mathrm{cm}\\times5\\,\\mathrm{cm}",
+      "78\\,\\mathrm{cm}^2"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q21.png",
+      "caption": "Gambar Soal 21: Daerah irisan dua segiempat persegi panjang ABCD dan EFGH.",
+      "alt": "Persegi panjang ABCD dan EFGH saling beririsan; daerah bersama ditandai Irisan.",
+      "sourcePhysicalPage": 4,
+      "cropPixels": [
+        120,
+        264,
+        1120,
+        416
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 4,
+      "printedPage": 4,
+      "originalText": "21. BANGUN DATAR BERIRISAN Dua buah persegi panjang ABCD (ukuran 8 cm × 6 cm) dan EFGH\n(ukuran 10 cm × 5 cm) saling beririsan seperti gambar di bawah. Jika total luas gabungan kedua bangun\ntanpa menghitung daerah irisan dua kali adalah 78 cm2, hitunglah luas daerah irisannya!\nABCD\nEFGHIrisan\nGambar Soal 21:\nDaerah irisan dua segiempat persegi panjang ABCD dan\nEFGH.\nA. 16 cm2 B. 18 cm2 C. 20 cm2 D. 22 cm2"
+    },
+    "auditFlags": [
+      "SCHEMATIC-NOT-TO-SCALE"
+    ]
+  },
+  {
+    "id": "q22",
+    "originalNumber": 22,
+    "topic": "Bangun datar beririsan",
+    "originalTopic": "BANGUN DATAR BERIRISAN",
+    "statement": "Dua buah segitiga PQR (luas = 60 cm²) dan segitiga STU (luas = 90 cm²) saling tumpang tindih. Jika luas total gabungan kedua segitiga adalah 115 cm², berapakah luas daerah irisannya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 cm²"
+      },
+      {
+        "id": "B",
+        "text": "30 cm²"
+      },
+      {
+        "id": "C",
+        "text": "35 cm²"
+      },
+      {
+        "id": "D",
+        "text": "40 cm²"
+      }
+    ],
+    "mathExpressions": [
+      "60\\,\\mathrm{cm}^2",
+      "90\\,\\mathrm{cm}^2",
+      "115\\,\\mathrm{cm}^2"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q22.png",
+      "caption": "Gambar Soal 22: Daerah irisan dua buah segitiga PQR dan STU pada bidang datar.",
+      "alt": "Segitiga PQR dan STU tumpang tindih. Gambar skematis, ukuran luas mengikuti teks.",
+      "sourcePhysicalPage": 4,
+      "cropPixels": [
+        120,
+        580,
+        1120,
+        734
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 4,
+      "printedPage": 4,
+      "originalText": "22. BANGUN DATAR BERIRISAN Dua buah segitiga PQR (luas = 60 cm2) dan segitiga STU (luas = 90 cm2)\nsaling tumpang tindih. Jika luas total gabungan kedua segitiga adalah 115 cm2, berapakah luas daerah\nirisannya?\nPQR STU\nGambar Soal 22:\nDaerah irisan dua buah segitiga PQR dan STU pada bidang\ndatar.\nA. 25 cm2 B. 30 cm2 C. 35 cm2 D. 40 cm2"
+    },
+    "auditFlags": [
+      "SCHEMATIC-NOT-TO-SCALE"
+    ]
+  },
+  {
+    "id": "q23",
+    "originalNumber": 23,
+    "topic": "Bangun datar beririsan",
+    "originalTopic": "BANGUN DATAR BERIRISAN",
+    "statement": "Sebuah persegi ABCD bertumpukan dengan segitiga EFG. Luas daerah persegi yang tidak tertutup segitiga adalah 114 cm². Jika luas irisan setara 40% dari luas segitiga EFG, berapakah luas segitiga EFG?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60 cm²"
+      },
+      {
+        "id": "B",
+        "text": "70 cm²"
+      },
+      {
+        "id": "C",
+        "text": "75 cm²"
+      },
+      {
+        "id": "D",
+        "text": "80 cm²"
+      }
+    ],
+    "mathExpressions": [
+      "114\\,\\mathrm{cm}^2",
+      "40\\%"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q23.png",
+      "caption": "Gambar Soal 23: Persegi ABCD (sisi 12 cm) beririsan dengan segitiga EFG.",
+      "alt": "Persegi ABCD bersisi 12 cm beririsan sebagian dengan segitiga EFG.",
+      "sourcePhysicalPage": 4,
+      "cropPixels": [
+        120,
+        894,
+        1120,
+        1046
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 4,
+      "printedPage": 4,
+      "originalText": "23. BANGUN DATAR BERIRISAN Sebuah persegi ABCD bertumpukan dengan segitiga EFG. Luas daerah\npersegi yang tidak tertutup segitiga adalah 114 cm2. Jika luas irisan setara 40% dari luas segitiga EFG,\nberapakah luas segitiga EFG?\nABCD\nEFG\nGambar Soal 23:\nPersegi ABCD (sisi 12 cm) beririsan dengan segitiga EFG.\nA. 60 cm2 B. 70 cm2 C. 75 cm2 D. 80 cm2"
+    },
+    "auditFlags": [
+      "Q23-CAPTION-ESSENTIAL",
+      "SCHEMATIC-NOT-TO-SCALE"
+    ]
+  },
+  {
+    "id": "q24",
+    "originalNumber": 24,
+    "topic": "Jarak, kecepatan, waktu",
+    "originalTopic": "JARAK, KECEPATAN, WAKTU",
+    "statement": "Kota X dan Y terpisah sejauh 210 km. Mobil A berangkat dari X ke Y pukul 08.00 dengan kecepatan 60 km/jam. Pada waktu sama, Mobil B berangkat dari Y ke X dengan kecepatan 80 km/jam. Kedua mobil berpapasan pada pukul…",
+    "options": [
+      {
+        "id": "A",
+        "text": "09.15 WIB"
+      },
+      {
+        "id": "B",
+        "text": "09.30 WIB"
+      },
+      {
+        "id": "C",
+        "text": "09.45 WIB"
+      },
+      {
+        "id": "D",
+        "text": "10.00 WIB"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q24.png",
+      "caption": "Gambar Skema 24: Pergerakan dua kendaraan saling mendekat dari kota X dan Y.",
+      "alt": "Kota X dan Kota Y di ujung ruas garis berjarak 210 km.",
+      "sourcePhysicalPage": 4,
+      "cropPixels": [
+        120,
+        1198,
+        1120,
+        1310
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 4,
+      "printedPage": 4,
+      "originalText": "24. JARAK, KECEPATAN, WAKTU Kota X dan Y terpisah sejauh 210 km. Mobil A berangkat dari X ke Y\npukul 08.00 dengan kecepatan 60 km/jam. Pada waktu sama, Mobil B berangkat dari Y ke X dengan\nkecepatan 80 km/jam. Kedua mobil berpapasan pada pukul...\nKota X Kota Y\n210 km Gambar Skema 24:\nPergerakan dua kendaraan saling mendekat dari kota X dan\nY.\nA. 09.15 W IB B. 09.30 W IB C. 09.45 W IB D. 10.00 W IB"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q25",
+    "originalNumber": 25,
+    "topic": "Jarak, kecepatan, waktu",
+    "originalTopic": "JARAK, KECEPATAN, WAKTU",
+    "statement": "Jika Budi mengendarai motor dengan kecepatan 40 km/jam, ia terlambat 15 menit. Jika kecepatannya 60 km/jam, ia tiba 10 menit lebih awal. Jarak rumah Budi ke tempat kerjanya adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "40 km"
+      },
+      {
+        "id": "B",
+        "text": "45 km"
+      },
+      {
+        "id": "C",
+        "text": "50 km"
+      },
+      {
+        "id": "D",
+        "text": "60 km"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 4,
+      "printedPage": 4,
+      "originalText": "25. JARAK, KECEPATAN, WAKTU Jika Budi mengendarai motor dengan kecepatan 40 km/jam, ia terlambat\n15 menit. Jika kecepatannya 60 km/jam, ia tiba 10 menit lebih awal. Jarak rumah Budi ke tempat\nkerjanya adalah...\nA. 40 km B. 45 km C. 50 km D. 60 km"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q26",
+    "originalNumber": 26,
+    "topic": "Keliling & luas bangun",
+    "originalTopic": "KELILING & LUAS BANGUN",
+    "statement": "Sebuah papan nama kayu berbentuk huruf \"H\" simetris dibuat dengan ukuran tinggi total 60 cm, lebar total 40 cm, dan ketebalan setiap batang/garis adalah 10 cm seperti pada gambar di bawah. Jika seluruh tepi luar papan nama tersebut dipasangi pita hias, berapakah keliling total pita hias yang dibutuhkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "260 cm"
+      },
+      {
+        "id": "B",
+        "text": "280 cm"
+      },
+      {
+        "id": "C",
+        "text": "300 cm"
+      },
+      {
+        "id": "D",
+        "text": "320 cm"
+      }
+    ],
+    "mathExpressions": [],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q26.png",
+      "caption": "Keterangan Gambar 26: Bangun simetris huruf \"H\" dengan tinggi 60 cm, lebar 40 cm, dan tebal batang 10 cm.",
+      "alt": "Huruf H dengan dua batang tegak dan satu penghubung; tinggi 60 cm, lebar 40 cm, tebal batang 10 cm.",
+      "sourcePhysicalPage": 5,
+      "cropPixels": [
+        120,
+        306,
+        1120,
+        506
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 5,
+      "printedPage": 5,
+      "originalText": "26. KELILING & LUAS BANGUN Sebuah papan nama kayu berbentuk huruf \"H\" simetris dibuat dengan\nukuran tinggi total 60 cm, lebar total 40 cm, dan ketebalan setiap batang/garis adalah 10 cm seperti pada\ngambar di bawah. Jika seluruh tepi luar papan nama tersebut dipasangi pita hias, berapakah keliling total\npita hias yang dibutuhkan?\n60 cm\n40 cm\n10 cm\n10 cm\nKeterangan Gambar 26:\nBangun simetris huruf \"H\" dengan tinggi 60 cm, lebar 40 cm,\ndan tebal batang 10 cm.\nA. 260 cm B. 280 cm C. 300 cm D. 320 cm"
+    },
+    "auditFlags": [
+      "SCHEMATIC-NOT-TO-SCALE"
+    ]
+  },
+  {
+    "id": "q27",
+    "originalNumber": 27,
+    "topic": "Luas arsiran segiempat",
+    "originalTopic": "LUAS ARSIRAN SEGIEMPAT",
+    "statement": "Diberikan persegi ABCD dengan panjang sisi 10 cm. Titik P, Q, R, S masing-masing merupakan titik tengah sisi AB, BC, CD, DA. Luas segiempat PQRS yang diarsir di dalam persegi adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "40 cm²"
+      },
+      {
+        "id": "B",
+        "text": "45 cm²"
+      },
+      {
+        "id": "C",
+        "text": "50 cm²"
+      },
+      {
+        "id": "D",
+        "text": "60 cm²"
+      }
+    ],
+    "mathExpressions": [
+      "PQRS"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q27.png",
+      "caption": "Gambar Soal 27: Persegi ABCD dengan segiempat PQRS di dalamnya yang dihubungkan dari titik-titik tengah.",
+      "alt": "A kiri atas, B kanan atas, C kanan bawah, D kiri bawah. P, Q, R, S di tengah sisi berurutan. PQRS diarsir.",
+      "sourcePhysicalPage": 5,
+      "cropPixels": [
+        120,
+        653,
+        1120,
+        822
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 5,
+      "printedPage": 5,
+      "originalText": "27. LUAS ARSIRAN SEGIEMPAT Diberikan persegi ABCD dengan panjang sisi 10 cm. Titik P, Q, R, S\nmasing-masing merupakan titik tengah sisi AB, BC, CD, DA. Luas segiempat PQRS yang diarsir di dalam\npersegi adalah...\nA P B\nQ\nCRD\nS\nGambar Soal 27:\nPersegi ABCD dengan segiempat PQRS di dalamnya yang dihubungkan\ndari titik-titik tengah.\nA. 40 cm2 B. 45 cm2 C. 50 cm2 D. 60 cm2"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q28",
+    "originalNumber": 28,
+    "topic": "Luas arsiran segiempat",
+    "originalTopic": "LUAS ARSIRAN SEGIEMPAT",
+    "statement": "Persegi panjang ABCD berukuran 12 cm × 8 cm. Sebuah titik E terletak di dalam area persegi panjang. Luas total daerah yang diarsir (ΔABE + ΔCDE) adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "36 cm²"
+      },
+      {
+        "id": "B",
+        "text": "42 cm²"
+      },
+      {
+        "id": "C",
+        "text": "48 cm²"
+      },
+      {
+        "id": "D",
+        "text": "54 cm²"
+      }
+    ],
+    "mathExpressions": [
+      "\\triangle ABE+\\triangle CDE"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q28.png",
+      "caption": "Gambar Soal 28: Daerah arsir terbentuk dari dua segitiga ΔABE dan ΔCDE yang bertolak belakang.",
+      "alt": "AB sisi atas dan CD sisi bawah persegi panjang. E di dalam. Segitiga ABE dan CDE diarsir.",
+      "sourcePhysicalPage": 5,
+      "cropPixels": [
+        120,
+        942,
+        1120,
+        1097
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 5,
+      "printedPage": 5,
+      "originalText": "28. LUAS ARSIRAN SEGIEMPAT Persegi panjang ABCD berukuran 12 cm × 8 cm. Sebuah titik E terletak di\ndalam area persegi panjang. Luas total daerah yang diarsir (ΔABE + ΔCDE) adalah...\nA B\nCD\nE\nGambar Soal 28:\nDaerah arsir terbentuk dari dua segitiga ΔABE dan ΔCDE yang\nbertolak belakang.\nA. 36 cm2 B. 42 cm2 C. 48 cm2 D. 54 cm2"
+    },
+    "auditFlags": [
+      "SCHEMATIC-NOT-TO-SCALE"
+    ]
+  },
+  {
+    "id": "q29",
+    "originalNumber": 29,
+    "topic": "Bentuk aljabar",
+    "originalTopic": "BENTUK ALJABAR",
+    "statement": "Diketahui suku aljabar x + 1/x = 5. Nilai eksak dari penjumlahan suku kuadrat x² + 1/x² adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "21"
+      },
+      {
+        "id": "B",
+        "text": "23"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "27"
+      }
+    ],
+    "mathExpressions": [
+      "x+\\frac1x=5",
+      "x^2+\\frac1{x^2}"
+    ],
+    "cryptarithm": null,
+    "diagram": null,
+    "source": {
+      "physicalPage": 5,
+      "printedPage": 5,
+      "originalText": "29. BENTUK ALJABAR Diketahui suku aljabar x + 1/x = 5. Nilai eksak dari penjumlahan suku kuadrat x2\n+ 1/x2 adalah...\nA. 21 B. 23 C. 25 D. 27"
+    },
+    "auditFlags": []
+  },
+  {
+    "id": "q30",
+    "originalNumber": 30,
+    "topic": "Bentuk aljabar",
+    "originalTopic": "BENTUK ALJABAR",
+    "statement": "Sebuah taman berbentuk persegi panjang memiliki ukuran panjang (3x + 2) cm dan lebar (2x − 1) cm. Jika keliling taman tidak boleh melebihi 42 cm, nilai maksimum luas taman tersebut adalah…",
+    "options": [
+      {
+        "id": "A",
+        "text": "84 cm²"
+      },
+      {
+        "id": "B",
+        "text": "90 cm²"
+      },
+      {
+        "id": "C",
+        "text": "98 cm²"
+      },
+      {
+        "id": "D",
+        "text": "105 cm²"
+      }
+    ],
+    "mathExpressions": [
+      "(3x+2)\\,\\mathrm{cm}",
+      "(2x-1)\\,\\mathrm{cm}"
+    ],
+    "cryptarithm": null,
+    "diagram": {
+      "src": "/diagrams/q30.png",
+      "caption": "Gambar Taman 30: Pemodelan aljabar keliling dan luas maksimum persegi panjang.",
+      "alt": "Persegi panjang dengan panjang 3x + 2 cm dan lebar 2x − 1 cm.",
+      "sourcePhysicalPage": 5,
+      "cropPixels": [
+        120,
+        1380,
+        1120,
+        1504
+      ],
+      "renderSize": [
+        1202,
+        1700
+      ],
+      "provenance": "Unmodified crop from source PDF page render; caption retained."
+    },
+    "source": {
+      "physicalPage": 5,
+      "printedPage": 5,
+      "originalText": "30. BENTUK ALJABAR Sebuah taman berbentuk persegi panjang memiliki ukuran panjang (3x + 2) cm\ndan lebar (2x − 1) cm. Jika keliling taman tidak boleh melebihi 42 cm, nilai maksimum luas taman\ntersebut adalah...\nPanjang: 3x+2 2x-1 Gambar Taman 30:\nPemodelan aljabar keliling dan luas maksimum persegi panjang.\nA. 84 cm2 B. 90 cm2 C. 98 cm2 D. 105 cm2"
+    },
+    "auditFlags": [
+      "SCHEMATIC-NOT-TO-SCALE"
+    ]
+  }
+]

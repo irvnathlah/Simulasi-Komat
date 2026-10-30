@@ -1,0 +1,1 @@
+export const EXAM = Object.freeze({ title: 'Simulasi Babak Penyisihan Olimpiade Matematika MGMP Kelas VII', questionCount: 30, durationSeconds: 7200, scoring: Object.freeze({ correct: 4, incorrect: 0, unanswered: 0 }), maximumScore: 120 });
